@@ -1,0 +1,13 @@
+Quick Coming Soon controller and view for CodeIgniter
+
+The image links to Imgur, and the CSS is inline so no extra files beyond the controller and the view is needed.
+
+Put the files in the correct folders, and update your routes.php file
+
+If you're working with a new installation of CodeIgniter, open routes.php and replace: 
+
+$route['default_controller'] = "welcome";
+
+with:
+
+$route['default_controller'] = "coming_soon";
